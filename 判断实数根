@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{
+   float a,b,c;
+   scanf("%f%f%f",&a,&b,&c);
+   if( b*b-4*a*c>=0)
+   printf ("方程有实数根");
+   if(b*b-4*a*c<0)
+   printf ("方程无实数根");
+   return 0;
+}
